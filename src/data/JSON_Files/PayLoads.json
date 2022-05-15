@@ -1,0 +1,32 @@
+{
+  "Assets": [
+    {
+      "id": "1000000001",
+      "name": "AutoTest",
+      "currency": "GBP",
+      "year": "2021",
+      "value": "10.000000015"
+    },
+    {
+      "id": "1000000002",
+      "name": "AutoTest",
+      "currency": "INR",
+      "year": "2021",
+      "value": "110.000000015"
+    },
+    {
+      "id": "1000000003",
+      "name": "AutoTest",
+      "currency": "EUR",
+      "year": "2022",
+      "value": "210.000000015"
+    },
+    {
+      "id": "1000000004",
+      "name": "AutoTest",
+      "currency": "USD",
+      "year": "2022",
+      "value": "140.000000015"
+    }
+  ]
+}
