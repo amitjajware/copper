@@ -45,21 +45,12 @@ public class RestAssuredExtension {
         Map<String, String> pathParam = baseURL();
         Request.pathParams(pathParam);
         Request.body(body);
-        try {
-            Request.post(new URI(url));
-        } catch (URISyntaxException e) {
-            e.printStackTrace();
-        }
+        Request.post(new URI(pathParam+url));
+      //  Request.post("http://localhost:8080/collaterals/");
     }
 
     public static void postPayLoad_asString(String url, String body) throws URISyntaxException {
-        Map<String, String> pathParam = baseURL();
-        Request.pathParams(pathParam);
         Request.body(body);
-        try {
-            Request.post(new URI(url));
-        } catch (URISyntaxException e) {
-            e.printStackTrace();
-        }
+        Request.post("http://localhost:8080/collaterals/");
     }
 }

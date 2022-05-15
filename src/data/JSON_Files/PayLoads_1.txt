@@ -1,0 +1,8 @@
+1,Copper,EUR,2022,10.15
+2,CopperCo,USD,2021,20.15
+3,CopperCom,GBP,2022,30.15
+4,CopperLon,GBP,2023,40.15
+5,CopperUS,EUR,2022,50.15
+6,CopperSing,USD,2022,60.15
+7,CopperDubai,INR,2021,70.15
+8,CopperAus,AUS,2020,80.15

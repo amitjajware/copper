@@ -35,8 +35,8 @@ public class serializeDeserialize {
     public static void pojoToHTML()throws SerializeException {
         //POJO to JSON
         HtmlSerializer jsonSerializer = HtmlSerializer.DEFAULT_SQ_READABLE;
-        String json = jsonSerializer.serialize(assetPOJO);
-        System.out.println(json);
+        String html = jsonSerializer.serialize(assetPOJO);
+        System.out.println(html);
 
     }
 
