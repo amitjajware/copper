@@ -18,6 +18,7 @@ import org.junit.runner.Request;
 import org.testng.annotations.Test;
 import utilities.RestAssuredExtension;
 import utilities.commonLib;
+import utilities.serializeDeserialize;
 
 import java.io.File;
 import java.net.URISyntaxException;
@@ -38,6 +39,11 @@ public class commonSteps {
 
     @Given("The user verify the running service content at {string}")
     public void theUserVerifyTheRunningService(String aFilePath) throws Exception {
+
+        serializeDeserialize.pojoToJson();
+        serializeDeserialize.pojoToXML();
+        serializeDeserialize.pojoToHTML();
+        serializeDeserialize.jsonToPOJO();
 
             // Passing url value from data table to this function
             response = RestAssuredExtension.getRequest(baseURI+aFilePath);
